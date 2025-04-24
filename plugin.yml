@@ -1,0 +1,20 @@
+name: Manhunt
+version: '${project.version}'
+main: server.manhunt.Manhunt
+api-version: '1.20'
+commands:
+  runner:
+    description: 플레이어를 도망자로 설정합니다.
+    usage: /runner <플레이어>
+  hunter:
+    description: 플레이어를 추격자로 설정합니다.
+    usage: /hunter <플레이어>
+  role:
+    description: 자신의 역할을 확인합니다.
+    usage: /role
+  start:
+    description: 게임을 시작합니다.
+    usage: /start
+  reset:
+    description: 모든 역할을 초기화합니다.
+    usage: /reset
